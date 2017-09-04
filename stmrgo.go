@@ -1,4 +1,4 @@
-package stmr_go
+package stmrgo
 
 /*
  #include <stdlib.h>

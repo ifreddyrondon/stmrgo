@@ -1,12 +1,12 @@
-package stmr_go_test
+package stmrgo_test
 
 import (
 	"testing"
-	"github.com/ifreddyrondon/stmr-go"
+	"github.com/ifreddyrondon/stmrgo"
 )
 
 func TestBasicStmr(t *testing.T)  {
-	result := stmr_go.Stem("nationalization")
+	result := stmrgo.Stem("nationalization")
 	if result != "nation" {
 		t.Error("Expect nation. Got %v", result)
 	}
